@@ -1,4 +1,7 @@
 <?php
+/**
+ * Source: https://github.com/php-curl-class/php-curl-class
+ */
 class Curl
 {
     const VERSION = '4.10.0';
