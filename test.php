@@ -6,7 +6,7 @@
     $API_URL = "https://web.site.url"; // The URL of Rocket Chat server
 
     $RC = new RocketChat();
-    $res = $RC->RC_login($Username, $Password, $RC_URL);
+    $res = $RC->RC_login($Username, $Password, $API_URL);
     print_r($res);
     
     print_r("\n");
@@ -21,7 +21,6 @@
         $res = $RC->RC_messages($ID_Rooms);
         $res = $RC->RC_send($ID_Rooms,'hi');
     */
-
         $res = $RC->RC_logout();
         print_r($res);
     }
