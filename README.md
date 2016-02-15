@@ -1,1 +1,1 @@
-# RocketChat Api PHP
+# RocketChat Api Simple - PHP 
